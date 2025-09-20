@@ -6,7 +6,7 @@ Automated bootstrap script to set up a complete **WSL development environment** 
 - **Kotlin**, **Gradle**, **JDK 21**  
 - **Docker**, **k3d**, **kubectl**, **Helm**, **ArgoCD**  
 - **Terraform**, **GitHub CLI**, **Ngrok**, **Hetzner CLI**  
-- **Databases**: PostgreSQL, MongoDB, Redis
+- **Databases**: **PostgreSQL**, **Redis**
 
 This script is designed for **fresh WSL installations** and sets up aliases, shell configuration, and a version-check table (`bsv`) for all installed tools.
 
@@ -90,8 +90,6 @@ This will display a Nushell table with all installed tool versions.
 | `gw`  | ./gradlew                                    |
 | `hc`  | hcloud                                       |
 | `k`   | kubectl                                      |
-| `m`   | mongo                                        |
-| `md`  | mongod                                       |
 | `rc`  | redis-cli                                    |
 | `rs`  | redis-server                                 |
 | `t`   | terraform                                    |
