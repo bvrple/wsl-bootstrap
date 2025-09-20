@@ -66,6 +66,7 @@ chmod +x bootstrap.sh
 
 1. Open **Nushell** and initialize Starship:
 ```nu
+$env.PATH = ($env.PATH | split row (char esep) | prepend /home/linuxbrew/.linuxbrew/bin)
 starship init nu | save -f ~/.cache/starship/init.nu
 ```
 
